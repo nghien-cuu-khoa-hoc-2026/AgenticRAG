@@ -9,7 +9,7 @@ docker run -d \
 curl http://localhost:8080/api/v2/heartbeat
 # Kết quả: {"nanosecond heartbeat": 1738483200000000000}
 
-
+========================================================================================================================
 
 # BƯỚC 1: Khởi động lại container (nếu đã stop)
 docker start chromadb_server
@@ -24,7 +24,7 @@ docker run -d \
 # BƯỚC 2: Connect và dùng ngay (KHÔNG CẦN SEED LẠI)
 python backend/app/retriever_agent.py
 
-
+========================================================================================================================
 
 # 🎯 KHI NÀO CẦN SEED LẠI?
 
