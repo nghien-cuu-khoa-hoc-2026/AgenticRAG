@@ -27,5 +27,5 @@ def test_agent():
             print(f"\nLỗi: {e}")
 
 if __name__ == "__main__":
-    # setup()
+    setup()
     test_agent()
