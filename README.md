@@ -9,15 +9,6 @@ docker run -d \
 curl http://localhost:8080/api/v2/heartbeat
 # Kết quả: {"nanosecond heartbeat": 1738483200000000000}
 
-# BƯỚC 2: Chạy script seed data (CHỈ 1 LẦN)
-python backend/app/database/data_loader.py
-
-# Hoặc trong code Python:
-# from data_loader import seed_chroma
-# vectorstore = seed_chroma(
-#     collection_name="student_handbook",
-#     directory="./backend/data"
-# )
 
 
 # BƯỚC 1: Khởi động lại container (nếu đã stop)
