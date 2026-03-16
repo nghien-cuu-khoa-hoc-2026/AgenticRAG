@@ -22,7 +22,7 @@ docker run -d \
   chromadb/chroma
 
 # BƯỚC 2: Connect và dùng ngay (KHÔNG CẦN SEED LẠI)
-python backend/app/retriever_agent.py
+python main.py (bỏ #setup())
 
 ========================================================================================================================
 
@@ -48,7 +48,6 @@ embeddings = HuggingFaceEmbeddings(
     model_name="intfloat/multilingual-e5-large"  #  Model mới
 )
 # Phải seed lại vì vector dimensions khác
-
 
 
 ## 4. Xóa collection và làm lại từ đầu
