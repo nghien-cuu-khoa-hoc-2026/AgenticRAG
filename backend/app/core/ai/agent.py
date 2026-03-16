@@ -118,7 +118,7 @@ def get_llm_and_agent() -> AgentExecutor:
                          handle_parsing_errors=True,
                          max_iterations=5,
                          memory=memory,
-                         early_stopping_method="force",
+                         early_stopping_method="generate",
                          max_execution_time=60,
                          )
 
