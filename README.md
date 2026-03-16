@@ -56,5 +56,3 @@ import chromadb
 client = chromadb.HttpClient(host="localhost", port=8080)
 client.delete_collection("data_test")  # Xóa
 
-# Sau đó seed lại
-seed_chroma("student_handbook", "./backend/data")
