@@ -1,0 +1,11 @@
+/* Force the login button to use blue instantly */
+button[type="submit"] {
+    background-color: hsl(217, 74%, 38%) !important; /* Tailwind's blue-500 */
+    border-color: hsl(217, 74%, 38%) !important;
+    color: hsl(0 0% 100%) !important;
+
+}
+
+.watermark {
+    display: none !important;
+}
