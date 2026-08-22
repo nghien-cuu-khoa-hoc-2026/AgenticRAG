@@ -3,9 +3,9 @@ langchain
 python-dotenv
 fastapi
 langchain-groq
-uvicchain-core
+langchain-core
 langchain-community
-lanorn
+uvicorn
 langgchain-classic
 langchain-huggingface
 sentence-transformers
